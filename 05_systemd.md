@@ -28,6 +28,12 @@ Załaduj konfigurację.
 sudo systemctl daemon-reload
 ```
 
+Dodaj usługę do autostartu.
+
+```
+sudo systemctl enable bit
+```
+
 Uruchom usługę.
 
 ```
